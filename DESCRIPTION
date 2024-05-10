@@ -1,0 +1,19 @@
+Package: AssoTest
+Type: Package
+Title: Association Tests With Incomplete Covariates and High-Dimensional Auxiliary Variables
+Version: 0.1.0
+Author: Jiahui Feng <jhfeng731@gmail.com>
+Maintainer: Jiahui Feng <jhfeng731@gmail.com>
+Description: Perform score test with incomplete covariates and high-dimensional auxiliary variables for multiple types of outcome data
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    glmnet,
+    stats,
+    Rcpp,
+    RcppEigen
+LinkingTo:
+    Rcpp,
+    RcppEigen
+RoxygenNote: 7.2.3

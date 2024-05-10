@@ -36,7 +36,6 @@ surv_score  |  Performs (supremum) score test with missing data for time-to-even
 
 ```
 scoretest(x, y, s, w = NULL, r, family = c("gaussian", "binomial"))
-
 ```
 This function performs a score test to investigate the association between a phenotype and an incomplete covariate, where the incomplete covariate may be associated with potentially high-dimensional auxiliary variables.
 
@@ -47,7 +46,6 @@ The details of the model can be found in [Wong et al.](https://doi.org/10.5705/s
 
 ```
 scoretest_supre(x, y, s, w, r, delta, Z)
-
 ```
 This function performs a score test to investigate the association between a right-censored survival outcome and an incomplete covariate, where the incomplete covariate may be associated with potentially high-dimensional auxiliary variables. We specify the link between the survival outcome and the covariates using a transformation model, which includes the proportional hazards model and the proportional odds model as special cases.
  

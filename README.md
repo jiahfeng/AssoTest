@@ -54,7 +54,7 @@ This function performs a score test to investigate the association between a rig
 ### Example
 
 ```
-load("Users/jhfeng/Rpackage/example_data.RData")
+load("example_data.RData")
 scoretest_supre(x = data_list$x, y = data_list$y, s = data_list$s, w = data_list$w, r = data_list$r, delta = data_list$delta, Z= data_list$Z)
 ```
 
